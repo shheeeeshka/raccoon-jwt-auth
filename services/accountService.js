@@ -1,4 +1,5 @@
 import ApiError from "../exceptions/ApiError.js";
+import bcrypt from "bcrypt";
 import { User } from "../models/models.js";
 import tokenService from "./tokenService.js";
 
